@@ -88,3 +88,4 @@ DonarID ASC
 ALTER TABLE [Donar] ADD CONSTRAINT [df_donar_CreatedDate] DEFAULT(GETDATE()) FOR CreatedDate
 ALTER TABLE [Donar] ADD CONSTRAINT [df_donar_LastModifiedDate] DEFAULT(GETDATE()) FOR LastModifiedDate
 
+-------------------------------------------------------------------
