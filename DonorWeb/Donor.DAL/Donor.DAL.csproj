@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sqlBloodGroup.cs" />
     <Compile Include="sqlUser.cs" />
     <Compile Include="SQLUtility.cs" />
   </ItemGroup>
