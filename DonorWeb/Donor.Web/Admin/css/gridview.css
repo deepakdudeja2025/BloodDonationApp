@@ -1,0 +1,44 @@
+﻿.gdv 
+{ 
+    width: 100%; 
+    background-color: #fff; 
+}
+.gdv th 
+{ 
+    border-bottom:3px double #cccccc; 
+    border-top:1px dashed #999999; 
+    font-weight:bold; 
+    background-color:#ffffff; 
+    height:35px;
+}
+.gdv th a
+{ 
+    color:#444444; text-decoration:none;
+}
+.gdv td 
+{ 
+    border-bottom:1px dashed #999999; 
+    height:30px;
+    padding: 2px;
+}
+.gdv .alt 
+{ 
+    border-bottom:1px dashed #999999; 
+    height:30px;
+    padding: 2px;
+}
+.gdv .pager 
+{
+    background: #999999 url(grd_pgr.png) repeat-x top; 
+}
+.gdv .pager table { margin: 5px 0; }
+.gdv .pager td 
+{ 
+    border-width: 0; 
+    padding: 0 6px; 
+    border-left: solid 1px #666; 
+    font-weight: bold; 
+    color: #fff; 
+    line-height: 12px; }
+.gdv .pager a { color: #666; text-decoration: none; }
+.gdv .pager a:hover { color: #000; text-decoration: none; }

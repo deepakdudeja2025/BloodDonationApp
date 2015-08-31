@@ -1,0 +1,24 @@
+﻿
+
+
+
+
+.mceContentBody { font-size:14px;}
+
+.mceContentBody pre {color:#000000;font-family:Consolas,Courier New !important;
+font-size:11px !important;font-size-adjust:none !important;
+font-stretch:normal !important;font-style:normal !important;
+font-variant:normal !important;font-weight:normal !important;
+line-height:normal !important;overflow: hidden !important;
+border-left:solid 6px #99AA77;border-right: 1px dashed #99AA77;
+border-top: 1px dashed #99AA77;border-bottom: 1px dashed #99AA77;
+background: #F4FFDF;padding: 8px 8px 8px 16px;display: block;
+white-space: pre;font-size: 11px;}
+
+.mceContentBody {font: normal 12px/20px Verdana, Arial, sans-serif;}
+.mceContentBody h1 {font-size:200%;line-height:1;margin:10px 0px 0.5em 0px;}
+.mceContentBody h2 {font-size:180%;margin:0px 0px 0.5em 0px;}
+.mceContentBody h3 {font-size:160%;line-height:1em;margin:10px 0px 0.5em 0px;font-weight:bold;padding-bottom:8px;border-bottom:solid 1px #efefef;}
+.mceContentBody h4 {font-size:140%;line-height:1.25em;margin:10px 0px 0.5em 0px;font-weight:bold;}
+.mceContentBody h5 {font-size:120%;font-weight:bold;margin:10px 0px 0.5em 0px;font-weight:bold;}
+.mceContentBody h6 {font-size:100%;font-weight:bold;}

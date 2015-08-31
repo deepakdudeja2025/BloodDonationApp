@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="Donor.Web.admin.AdminMaster" %>
+<%@ Register src="usercontrol/uxLeftMenu.ascx" tagname="uxLeftMenu" tagprefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>GEM :: Control Panel</title>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/screen.css" rel="stylesheet" type="text/css" />
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="css/gridview.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script type="text/javascript">
+        function closeMsg(val) {
+            document.getElementById(val).style.display = "none";
+        }
+
+        function CharCounter(textId, count) {
+            var txtbox = document.getElementById(textId);
+            var totalchar = count;
+            if (txtbox.value.length > totalchar) {
+                txtbox.value = txtbox.value.substring(0, totalchar);
+                alert("enter only " + totalchar + " character(s).");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="uxScriptManager" runat="server"></asp:ScriptManager>
+        <header>
+            <div class="header-left">
+                <%--<img src="images/client-logo.png"  alt="" />--%>
+                </div>
+            <div class="header-right">
+                <div class="user"><i class="fa fa-user"></i>
+                    <asp:Label runat="server" ID="lbAdminName" Text="Admin"></asp:Label></div>
+                <a href="logout.aspx" class="animate"><i class="fa fa-sign-out"></i>Logout</a>
+            </div>
+        </header>
+        <div class="page-container">
+            <div class="sidebar-menu">
+                <uc1:uxLeftMenu ID="uxLeftMenu1" runat="server" />
+            </div>
+            <div class="page-content">
+                <asp:ContentPlaceHolder ID="cphMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
